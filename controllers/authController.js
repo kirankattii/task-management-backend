@@ -34,7 +34,7 @@ export const register = async (req, res) => {
 
 
 
-    await transporter.sendMail(mailOptions)
+    // await transporter.sendMail(mailOptions)
 
 
     return res.json({ success: true })
