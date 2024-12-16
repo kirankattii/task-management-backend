@@ -7,7 +7,7 @@ import authRouter from './routes/authRoutes.js'
 import userRouter from './routes/userRoutes.js'
 import taskRouter from './routes/taskRoutes.js'
 
-const allowedOrigins = ["http://localhost:5173"]
+const allowedOrigins = ["http://localhost:5173", "https://taskmanagement-frontend-seven.vercel.app"]
 const app = express()
 const port = process.env.PORT || 4000
 app.use(express.json())
